@@ -26,3 +26,5 @@
 `npm i axios`
 
 ### TMDB API END POINT -[Check](https://developers.themoviedb.org/3/getting-started/introduction)
+
+### React Hook [Playlist](https://youtu.be/cF2lQ_gZeA8)
