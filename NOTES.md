@@ -21,9 +21,17 @@
 
 ### Get All the Movies
 
-- install axios [Docs](https://www.npmjs.com/package/axios-react)
+**Axios** - Axios is a library that helps us make http requests to external resources
+
+Axios deals with responses using Promises, so it's streamlined and easy to use in our code. Axios uses methods like `get()` and `post()` that perform http GET and POST requests for retrieving or creating resources.
+
+- Install axios [Docs](https://www.npmjs.com/package/axios-react)
 
 `npm i axios`
+
+A `get` request
+
+`axios.get('http://localhost:3333/items')`
 
 ### TMDB API END POINT -[Check](https://developers.themoviedb.org/3/getting-started/introduction)
 

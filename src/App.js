@@ -7,7 +7,13 @@ function App() {
     <div className="App">
       <h1>Hello From Netflix Clone</h1>
       <Row title="Netflix Originals" fetchUrl={requests.NetflixOriginals}></Row>
-      {/* <Row title="Trending "></Row> */}
+      <Row title="Trending" fetchUrl={requests.Trending}></Row>
+      <Row title="Top Rated" fetchUrl={requests.TopRatedMoves}></Row>
+      <Row title="Actions Movies" fetchUrl={requests.ActionsMovies}></Row>
+      <Row title="Comedy Movies" fetchUrl={requests.ComedyMovies}></Row>
+      <Row title="Horror Movies" fetchUrl={requests.HorrorMovies}></Row>
+      <Row title="Romance Movies" fetchUrl={requests.RomanceMovies}></Row>
+      <Row title="Documentaries" fetchUrl={requests.Documentaries}></Row>
     </div>
   );
 }

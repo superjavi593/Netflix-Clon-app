@@ -1,7 +1,9 @@
-const API_KEY = "9b6573e5858471d5b6aa2f2c489f2ad3";
+import Keys from "./config/Keys";
 
+const API_KEY = Keys.tmdb.API_KEY;
+// console.log("API_KEY " + API_KEY);
 const requests = {
-  Trending: `/trending/all/week?api_key=${API_KEY}`,
+  Trending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   TopRatedMoves: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   NetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   ActionsMovies: `/discover/tv?api_key=${API_KEY}&&with_genres=28`,
