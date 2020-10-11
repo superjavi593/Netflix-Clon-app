@@ -2,10 +2,11 @@ import React from "react";
 import "./App.css";
 import requests from "./requests";
 import Row from "./component/Row";
+import Banner from "./component/Banner";
 function App() {
   return (
     <div className="app">
-      <h1>Hello From Netflix Clone</h1>
+      <Banner></Banner>
       <Row
         title="Netflix Originals"
         fetchUrl={requests.NetflixOriginals}
