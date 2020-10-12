@@ -6,7 +6,7 @@ import "../stylesheets/Banner.css";
 
 function Banner() {
   const [movie, setMovie] = useState([]);
-  console.log(requests.NetflixOriginals);
+  // console.log(requests.NetflixOriginals);
   useEffect(() => {
     async function fetchData() {
       const response = await axios.get(requests.NetflixOriginals);
@@ -20,7 +20,7 @@ function Banner() {
     }
     fetchData();
   }, []);
-  console.log(movie);
+  // console.log(movie);
   return (
     <header
       className="banner"

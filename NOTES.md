@@ -36,3 +36,12 @@ A `get` request
 ### TMDB API END POINT -[Check](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ### React Hook [Playlist](https://youtu.be/cF2lQ_gZeA8)
+
+### Trailer Popups
+
+Two packages - react-youtube & movie-trailer
+
+**Installalation**
+
+`npm i react-youtube`
+`npm i movie-trailer`

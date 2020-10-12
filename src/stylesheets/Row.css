@@ -2,13 +2,14 @@
 
 .row {
     --color: #E5E5E5;
+    --padding: 1rem 4% 0 4%;
 }
 
 .row_title {
     color: var(--color);
     font-size: 1.4rem;
     line-height: 1.25vw;
-    padding: 1rem 4% 0 4%;
+    padding: var(--padding);
 }
 
 .row_posters {
