@@ -38,7 +38,7 @@ function Banner() {
           {`${movie?.overview}`.substring(0, 150) + "..."}
         </h1>
       </div>
-      <div className="banner--fadeBottom" />
+      <div className="banner__fadeBottom" />
     </header>
   );
 }

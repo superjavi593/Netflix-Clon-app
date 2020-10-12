@@ -9,12 +9,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 2%;
 }
 
 .banner_contents {
-    padding: 0 4%;
-    padding-top: 140px;
+    padding: 140px 4% 0 4%;
     height: 190px;
 }
 
@@ -54,7 +52,7 @@
     transition: all .25s;
 }
 
-.banner--fadeBottom {
-    /* height: 7.4rem; */
+.banner__fadeBottom {
+    height: 16.3rem;
     background-image: linear-gradient( 180deg, transparent, rgba(37, 37, 37, .061), #111);
 }
