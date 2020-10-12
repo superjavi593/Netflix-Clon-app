@@ -23,7 +23,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
   const opts = {
     height: "390",
     width: "100%",
-    // padding: "1rem 4% 0 4%",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
