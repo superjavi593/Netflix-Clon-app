@@ -17,7 +17,7 @@ function NavBar() {
     <div className={`nav ${show && "nav_black"}`}>
       <img
         className="nav_logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/255px-Netflix_2015_logo.svg.png"
+        src="https://raw.githubusercontent.com/superjavi593/Megaplay/main/Logomegaplay1.png"
         alt="Netflix logo"
       />
       <img
